@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0182C0C196DA3C80052FA75 /* Perm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0182C0A196DA3C80052FA75 /* Perm.cpp */; };
+		E0182C0F196FD7FD0052FA75 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0182C0D196FD7FD0052FA75 /* Test.cpp */; };
 		E0B805B0195550EA00B56F32 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0B805AF195550EA00B56F32 /* main.cpp */; };
 		E0B805B2195550EA00B56F32 /* TestCPP.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E0B805B1195550EA00B56F32 /* TestCPP.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E0182C0A196DA3C80052FA75 /* Perm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Perm.cpp; sourceTree = "<group>"; };
+		E0182C0B196DA3C80052FA75 /* Perm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perm.h; sourceTree = "<group>"; };
+		E0182C0D196FD7FD0052FA75 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		E0182C0E196FD7FD0052FA75 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		E0B805AC195550EA00B56F32 /* TestCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B805AF195550EA00B56F32 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E0B805B1195550EA00B56F32 /* TestCPP.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestCPP.1; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 			children = (
 				E0B805AF195550EA00B56F32 /* main.cpp */,
 				E0B805B1195550EA00B56F32 /* TestCPP.1 */,
+				E0182C0A196DA3C80052FA75 /* Perm.cpp */,
+				E0182C0B196DA3C80052FA75 /* Perm.h */,
+				E0182C0D196FD7FD0052FA75 /* Test.cpp */,
+				E0182C0E196FD7FD0052FA75 /* Test.h */,
 			);
 			path = TestCPP;
 			sourceTree = "<group>";
@@ -117,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0182C0F196FD7FD0052FA75 /* Test.cpp in Sources */,
 				E0B805B0195550EA00B56F32 /* main.cpp in Sources */,
+				E0182C0C196DA3C80052FA75 /* Perm.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +239,7 @@
 				E0B805B7195550EA00B56F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
