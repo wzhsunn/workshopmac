@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E016868E1970E09D001B3486 /* TestTraits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E016868C1970E09D001B3486 /* TestTraits.cpp */; };
 		E0182C0C196DA3C80052FA75 /* Perm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0182C0A196DA3C80052FA75 /* Perm.cpp */; };
 		E0182C0F196FD7FD0052FA75 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0182C0D196FD7FD0052FA75 /* Test.cpp */; };
 		E0B805B0195550EA00B56F32 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0B805AF195550EA00B56F32 /* main.cpp */; };
@@ -27,10 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E016868C1970E09D001B3486 /* TestTraits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestTraits.cpp; sourceTree = "<group>"; };
+		E016868D1970E09D001B3486 /* TestTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTraits.h; sourceTree = "<group>"; };
+		E016868F197110E4001B3486 /* cppNote.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cppNote.md; sourceTree = "<group>"; };
 		E0182C0A196DA3C80052FA75 /* Perm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Perm.cpp; sourceTree = "<group>"; };
 		E0182C0B196DA3C80052FA75 /* Perm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perm.h; sourceTree = "<group>"; };
 		E0182C0D196FD7FD0052FA75 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
 		E0182C0E196FD7FD0052FA75 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		E0182C11196FE76E0052FA75 /* templateNote.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = templateNote.md; sourceTree = "<group>"; };
+		E0182C12196FFCD80052FA75 /* SmartPointer.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SmartPointer.md; sourceTree = "<group>"; };
+		E0182C13197035050052FA75 /* pythonNote.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pythonNote.md; sourceTree = "<group>"; };
 		E0B805AC195550EA00B56F32 /* TestCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B805AF195550EA00B56F32 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E0B805B1195550EA00B56F32 /* TestCPP.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestCPP.1; sourceTree = "<group>"; };
@@ -47,6 +54,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0182C10196FE7450052FA75 /* note */ = {
+			isa = PBXGroup;
+			children = (
+				E0182C11196FE76E0052FA75 /* templateNote.md */,
+				E0182C12196FFCD80052FA75 /* SmartPointer.md */,
+				E0182C13197035050052FA75 /* pythonNote.md */,
+				E016868F197110E4001B3486 /* cppNote.md */,
+			);
+			name = note;
+			sourceTree = "<group>";
+		};
 		E0B805A3195550EA00B56F32 = {
 			isa = PBXGroup;
 			children = (
@@ -66,12 +84,15 @@
 		E0B805AE195550EA00B56F32 /* TestCPP */ = {
 			isa = PBXGroup;
 			children = (
+				E0182C10196FE7450052FA75 /* note */,
 				E0B805AF195550EA00B56F32 /* main.cpp */,
 				E0B805B1195550EA00B56F32 /* TestCPP.1 */,
 				E0182C0A196DA3C80052FA75 /* Perm.cpp */,
 				E0182C0B196DA3C80052FA75 /* Perm.h */,
 				E0182C0D196FD7FD0052FA75 /* Test.cpp */,
 				E0182C0E196FD7FD0052FA75 /* Test.h */,
+				E016868C1970E09D001B3486 /* TestTraits.cpp */,
+				E016868D1970E09D001B3486 /* TestTraits.h */,
 			);
 			path = TestCPP;
 			sourceTree = "<group>";
@@ -129,6 +150,7 @@
 			files = (
 				E0182C0F196FD7FD0052FA75 /* Test.cpp in Sources */,
 				E0B805B0195550EA00B56F32 /* main.cpp in Sources */,
+				E016868E1970E09D001B3486 /* TestTraits.cpp in Sources */,
 				E0182C0C196DA3C80052FA75 /* Perm.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

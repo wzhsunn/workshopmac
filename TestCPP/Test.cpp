@@ -10,15 +10,23 @@
 #include <map>
 using namespace std;
 
+
+void Fun(double d)
+{
+    cout << "some thing" << endl;
+}
+
 void Test()
 {
-    map<map<string,int>, int> mymap;
+    /*map<map<string,int>, int> mymap;
     
     map<string, int> keymap;
     keymap.emplace("abc", 123);
     
     mymap.emplace(keymap, 234);
     
-    
+    */
+//    double d = 10.0;
+//    Fun（d);
     
 }
